@@ -36,44 +36,29 @@ html {
 
 
 .navigation {
-
-
-  
   font-size: 25px;
   top: 0px;
   padding: 0px;  
   font-family: lazer84;
 
-
-}
-
-.main-header {}
-
-.navigation__list {
+&__list {
   list-style: none;
   padding: 10px;
   margin: 0;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-
-
-
 }
-
-.navigation__item {}
-
+}
 .navigation__link {
 
   text-decoration: none;
   color: #f9c802;
   text-shadow: 1px 1px 0 #e30613;
-
-}
-
-.navigation__link:hover{
+&:hover{
 
   background: #e30613;
+}
 }
 
 .main {
@@ -85,17 +70,16 @@ html {
 
 .title {
   margin-bottom: 50px;
-}
 
-.title__header {
+
+&__header {
 
   font-size: 45px;
   font-family: lazer84;
   color: #f9c802;
   text-shadow: 2px 2px 0 #e30613;
   text-align: center;
-
-
+}
 }
 
 
@@ -103,18 +87,15 @@ html {
   color: #80ced7;
   font-size: 15px;
 
-}
-
-.about__header {
+&__header {
 
   color: #fff;
   font-family: rubik;
   text-align: center;
   font-size: 30px;
 
-
 }
-
+}
 .about__paragraph {
 
   font-size: 15px;
@@ -137,15 +118,14 @@ html {
   color: #fff;
   font-family: rubik;
 
-}
 
-.diary__header {
+&__header {
   color: #fff;
   font-family: rubik;
   text-align: center;
   font-size: 30px;
 
-
+}
 }
 
 .section__day{
@@ -191,14 +171,7 @@ html {
 
   font-weight: 900;
   text-align: center;
-
-
-}
-
-
-.footer__title {
-
-
+&__title {
   position: fixed;
   bottom: 10px;
   right: 10px;
@@ -207,9 +180,9 @@ html {
   font-size: 20px;
   font-family: lazer84;
   text-shadow: 1px 1px 0 #e30613;
-
-
 }
+}
+
 
 .box {
 
