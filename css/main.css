@@ -339,27 +339,25 @@ html {
   top: 0px;
   padding: 0px;
   font-family: lazer84; }
-
-.navigation__list {
-  list-style: none;
-  padding: 10px;
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  .navigation__list {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
 .navigation__link {
   text-decoration: none;
   color: #f9c802;
   text-shadow: 1px 1px 0 #e30613; }
-
-.navigation__link:hover {
-  background: #e30613; }
+  .navigation__link:hover {
+    background: #e30613; }
 
 .main {
   position: static;
@@ -369,23 +367,21 @@ html {
 
 .title {
   margin-bottom: 50px; }
-
-.title__header {
-  font-size: 45px;
-  font-family: lazer84;
-  color: #f9c802;
-  text-shadow: 2px 2px 0 #e30613;
-  text-align: center; }
+  .title__header {
+    font-size: 45px;
+    font-family: lazer84;
+    color: #f9c802;
+    text-shadow: 2px 2px 0 #e30613;
+    text-align: center; }
 
 .about {
   color: #80ced7;
   font-size: 15px; }
-
-.about__header {
-  color: #fff;
-  font-family: rubik;
-  text-align: center;
-  font-size: 30px; }
+  .about__header {
+    color: #fff;
+    font-family: rubik;
+    text-align: center;
+    font-size: 30px; }
 
 .about__paragraph {
   font-size: 15px;
@@ -403,12 +399,11 @@ html {
 .diary {
   color: #fff;
   font-family: rubik; }
-
-.diary__header {
-  color: #fff;
-  font-family: rubik;
-  text-align: center;
-  font-size: 30px; }
+  .diary__header {
+    color: #fff;
+    font-family: rubik;
+    text-align: center;
+    font-size: 30px; }
 
 .section__day {
   display: -ms-grid;
@@ -442,16 +437,15 @@ html {
 .footerr {
   font-weight: 900;
   text-align: center; }
-
-.footer__title {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  text-decoration: none;
-  color: #f9c802;
-  font-size: 20px;
-  font-family: lazer84;
-  text-shadow: 1px 1px 0 #e30613; }
+  .footerr__title {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #f9c802;
+    font-size: 20px;
+    font-family: lazer84;
+    text-shadow: 1px 1px 0 #e30613; }
 
 .box {
   position: -webkit-sticky;
